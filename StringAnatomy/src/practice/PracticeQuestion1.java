@@ -1,13 +1,13 @@
 package practice;
 
 /**
- * StringTest verifies the String immutable nature i.e. if the String objects are created, there contents 
+ * PracticeQuestion1 verifies the String immutable nature i.e. if the String objects are created, there contents 
  * cannot be changed. If the content of the String objects are modified then a new object is created.
  * 
  * @author abheek.srivastava
  *
  */
-public class StringTest {
+public class PracticeQuestion1 {
 
 	public static void main(String[] args) {
 		String ta = "A";
