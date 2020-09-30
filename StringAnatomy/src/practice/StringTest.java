@@ -11,7 +11,8 @@ public class StringTest {
 		
 		ta = ta.concat(tb); // ABC
 		
-		ta.replace('C', 'D');
+		ta.replace('C', 'D');  // A new object will be created with content ABD but there is  
+		                       // no reference variable therefore it's eligible for garbage collection 
 		
 		ta = ta.concat(tb); // ABCC
 		
