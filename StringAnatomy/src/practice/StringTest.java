@@ -1,5 +1,12 @@
 package practice;
 
+/**
+ * StringTest verifies the String immutable nature i.e. if the String objects are created, there contnts cannot be changed. 
+ * If the content of the String objects are modified then a new object is created.
+ * 
+ * @author abheek.srivastava
+ *
+ */
 public class StringTest {
 
 	public static void main(String[] args) {
